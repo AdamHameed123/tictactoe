@@ -72,7 +72,7 @@ export default function App() {
             className="theme-toggle"
             onClick={() => setDarkMode(!darkMode)}
           >
-            {darkMode ? "☀️ Light Mode" : "🌙 Dark Mode"}
+            {darkMode ? " Light Mode" : " Dark Mode"}
           </button>
         </div>
         <Board />
